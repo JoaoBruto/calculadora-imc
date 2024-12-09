@@ -22,7 +22,9 @@ while True:
     elif calcular <= 39.9:
         print("Seu IMC está classificado como sobrepeso.")
     else:
-        print("Seu IMC está classificado como obeso")     
+        print("Seu IMC está classificado como obeso")
+
+    print("IMC menor que 18.5 (magreza)\n", "Entre 18,5 e 24,9 (normal)\n", "Entre 25,0 e 29,9 (sobrepeso)\n", "Entre 30,0 e 39,9 (obesidade)\n", "Maior que 40,0 (obesidade grave)\n")     
 
     # Opção para continuar ou sair do programa
     resposta = str(input("Deseja continuar? (s/n) \n"))
